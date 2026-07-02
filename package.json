@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.8.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./src/styles/style.css --watch"
+    "tailwind": "npx @tailwindcss/cli -i ./src/input.css -o ./src/styles/style.css --watch",
+    "prettier": "npx prettier --write *.html"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.3.1",
