@@ -886,7 +886,7 @@
     }
   }
   .tallscreen\:section-min-height {
-    @media (min-aspect-ratio: 1/2) {
+    @media (max-aspect-ratio: 13/20) {
       min-height: calc(100vh - 68px);
     }
   }
