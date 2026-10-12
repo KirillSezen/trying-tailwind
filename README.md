@@ -6,5 +6,5 @@
 
 <details>
 <summary>Нажмите, чтобы посмотреть скриншот</summary>
-<img src="/images/screenshots/screenshot.png" alt="Основной скриншот приложения">
+<img src="src/images/screenshots/screenshot.png" alt="Основной скриншот приложения">
 </details>
